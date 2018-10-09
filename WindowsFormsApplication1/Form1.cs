@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.Data;
 using Dapper;
 
 namespace WindowsFormsApplication1
@@ -63,7 +64,10 @@ namespace WindowsFormsApplication1
         {
             try
             {
+                konn.Execute("update DataMhs set NIM ='"+tbNIM.Text+"',nama = '"+tbNama.Text+"', alamat = '"+tbAlamat.Text+"' where NIM ='"+tbNIM.Text+"'");
+                empty();
 
+                load();
             }
             catch(Exception ex)
             {
@@ -74,6 +78,25 @@ namespace WindowsFormsApplication1
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             insertData();
+        }
+
+        private void dataGrid_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            tbNIM.Text = dataGrid.CurrentRow.Cells[0].Value.ToString();
+            tbNama.Text = dataGrid.CurrentRow.Cells[1].Value.ToString();
+            tbAlamat.Text = dataGrid.CurrentRow.Cells[2].Value.ToString();
+
+        }
+
+        private void btnPerbaiki_Click(object sender, EventArgs e)
+        {
+            updateData();
+            Form1_Load(sender, e);
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            load();
         }
     }
 }

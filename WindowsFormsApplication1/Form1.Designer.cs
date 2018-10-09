@@ -83,6 +83,7 @@
             this.dataGrid.Name = "dataGrid";
             this.dataGrid.Size = new System.Drawing.Size(717, 163);
             this.dataGrid.TabIndex = 0;
+            this.dataGrid.CellMouseDoubleClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dataGrid_CellMouseDoubleClick);
             // 
             // label1
             // 
@@ -133,6 +134,7 @@
             this.btnPerbaiki.TabIndex = 8;
             this.btnPerbaiki.Text = "Perbaiki";
             this.btnPerbaiki.UseVisualStyleBackColor = true;
+            this.btnPerbaiki.Click += new System.EventHandler(this.btnPerbaiki_Click);
             // 
             // btnHapus
             // 
@@ -208,6 +210,7 @@
             this.Controls.Add(this.btnSimpan);
             this.Name = "Form1";
             this.Text = "Data Mahasiswa";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGrid)).EndInit();
             this.groupBox2.ResumeLayout(false);
