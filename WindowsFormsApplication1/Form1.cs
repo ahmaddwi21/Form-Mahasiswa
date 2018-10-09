@@ -64,10 +64,9 @@ namespace WindowsFormsApplication1
         {
             try
             {
-                konn.Execute("update DataMhs set NIM ='"+tbNIM.Text+"',nama = '"+tbNama.Text+"', alamat = '"+tbAlamat.Text+"' where NIM ='"+tbNIM.Text+"'");
+                konn.Execute("update DataMhs set NIM = @nim, nama = @nama, alamat= @alamat where NIM = @nim", new {nim= tbNIM.Text, nama= tbNama.Text, alamat= tbNama.Text});
                 empty();
-
-                load();
+ 
             }
             catch(Exception ex)
             {
