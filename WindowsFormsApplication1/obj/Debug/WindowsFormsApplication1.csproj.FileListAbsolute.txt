@@ -1,0 +1,22 @@
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Dapper.dll
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\bin\Debug\Dapper.xml
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\users\fatimah\documents\visual studio 2015\Projects\WindowsFormsApplication1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Form Mahasiswa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+D:\Form Mahasiswa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+D:\Form Mahasiswa\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+D:\Form Mahasiswa\WindowsFormsApplication1\bin\Debug\Dapper.dll
+D:\Form Mahasiswa\WindowsFormsApplication1\bin\Debug\Dapper.xml
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Form1.resources
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+D:\Form Mahasiswa\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
