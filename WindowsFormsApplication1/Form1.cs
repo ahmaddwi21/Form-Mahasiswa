@@ -59,6 +59,18 @@ namespace WindowsFormsApplication1
 
         }
 
+        private void updateData()
+        {
+            try
+            {
+
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             insertData();
