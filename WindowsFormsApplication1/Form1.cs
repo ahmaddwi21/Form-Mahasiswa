@@ -74,6 +74,21 @@ namespace WindowsFormsApplication1
             }
         }
 
+        private void deleteData()
+        {
+            try
+            {
+                konn.Execute("delete from DataMhs where NIM = '"+tbNIM.Text+"'");
+                empty();
+
+                load();
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             insertData();
@@ -96,6 +111,11 @@ namespace WindowsFormsApplication1
         private void Form1_Load(object sender, EventArgs e)
         {
             load();
+        }
+
+        private void btnHapus_Click(object sender, EventArgs e)
+        {
+            deleteData();
         }
     }
 }
